@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TP01_Nicholas_Camargo_DR3</string>
+
+    <string name="nome_label">Nome do Contato</string>
+    <string name="tipo_label1">Tipo do Telefone1</string>
+    <string name="tel_label1">Numero do Telefone1</string>
+    <string name="tipo_label2">Tipo do Telefone2</string>
+    <string name="tel_label2">Numero do Telefone2</string>
+
+    <string name="nome_hint">Nome Completo</string>
+    <string name="tipo_hint1">Cel ou Res 1</string>
+    <string name="tel_hint1">Numero 1</string>
+    <string name="tipo_hint2">Cel ou Res 2</string>
+    <string name="tel_hint2">Numero 2</string>
+
+    <string name="btn_criar_contato">Criar Contato</string>
+    <string name="btn_editar_contato">Editar Contato</string>
+    <string name="btn_excluir_contato">Exclua este Contato</string>
+</resources>

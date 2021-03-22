@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditarContatoActivity">
+
+    <TextView
+        android:id="@+id/textViewLabelNomeEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_label" />
+
+    <EditText
+        android:id="@+id/editTextNomeEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nome_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewLabelTipo1Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_label1" />
+
+    <EditText
+        android:id="@+id/editTextTipo1Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tipo_hint1"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewLabelTel1Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_label1" />
+
+    <EditText
+        android:id="@+id/editTextTel1Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tel_hint1"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewLabelTipo2Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_label2" />
+
+    <EditText
+        android:id="@+id/editTextTipo2Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tipo_hint2"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewLabelTel2Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_label2" />
+
+    <EditText
+        android:id="@+id/editTextTel2Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tel_hint2"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnEditarContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_editar_contato" />
+
+    <Button
+        android:id="@+id/btnExcluirContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_excluir_contato" />
+</LinearLayout>

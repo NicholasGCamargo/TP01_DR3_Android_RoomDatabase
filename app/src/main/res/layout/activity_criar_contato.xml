@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CriarContatoActivity">
+
+    <TextView
+        android:id="@+id/textViewLabelNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_label" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nome_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewLabelTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_label1" />
+
+    <EditText
+        android:id="@+id/editTextTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tipo_hint1"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewLabelNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_label1" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tel_hint1"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewLabelTipo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_label2" />
+
+    <EditText
+        android:id="@+id/editTextTipo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tipo_hint2"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewLabelNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_label2" />
+
+    <EditText
+        android:id="@+id/editTextNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tel_hint2"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCriarConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_criar_contato" />
+</LinearLayout>
